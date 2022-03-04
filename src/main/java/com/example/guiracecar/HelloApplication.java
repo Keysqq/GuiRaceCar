@@ -68,7 +68,7 @@ public class HelloApplication extends Application {
 
         Scene scene = new Scene(borderPane, 1000, 600);
         stage.setTitle("Race Car Animation");
-
+// this is a good way to handle it. The requestfocus might need to set focus to the animation 
         //needed to add (.addEventFilter(KeyEvent.KEY_PRESSED,)
         //in order to have this event trigger
         //still unaware of why this was needed or the workings behind it
